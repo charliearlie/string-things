@@ -1,4 +1,4 @@
-export default function camelToKebab(str) {
+export default function kebabCase(str) {
   if (typeof str !== "string")
     throw new TypeError("This function requires a string parameter");
 
