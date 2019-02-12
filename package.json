@@ -1,6 +1,6 @@
 {
   "name": "string-things",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A library which provides some basic string manipulation functions",
   "main": "dist/main.js",
   "scripts": {
