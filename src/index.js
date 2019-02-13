@@ -1,7 +1,7 @@
 import kebabCase from "./manipulations/kebabCase";
 import camelCase from "./manipulations/camelCase";
 
-module.exports = {
-  kebabCase,
-  camelCase
-};
+export { kebabCase, camelCase };
+
+// export { default as kebabCase } from "./manipulations/kebabCase";
+// export { default as camelCase } from "./manipulations/camelCase";
