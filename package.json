@@ -1,6 +1,6 @@
 {
   "name": "string-things",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A library which provides some basic string manipulation functions",
   "main": "dist/main.js",
   "scripts": {
@@ -22,6 +22,7 @@
     "@babel/preset-env": "^7.3.1",
     "babel-loader": "^8.0.5",
     "jest": "^24.1.0",
+    "terser-webpack-plugin": "^1.2.2",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
   }
