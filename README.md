@@ -1,4 +1,5 @@
 # string-things
+![](https://img.shields.io/travis/com/charliearlie/string-things.svg?style=flat)
 
 Simple string functions in one tiny bundle.
 
