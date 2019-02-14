@@ -1,8 +1,9 @@
 {
   "name": "string-things",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A library which provides some basic string manipulation functions",
   "main": "dist/main.js",
+  "repository": "https://github.com/charliearlie/string-things",
   "scripts": {
     "start": "webpack --mode development",
     "build": "webpack --mode production",
