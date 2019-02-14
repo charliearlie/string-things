@@ -52,5 +52,5 @@ capitaliseFirstLetter("charlie");
 // => "Charlie"
 ```
 
-### Actively maintained
+## Actively maintained
 Every time I need a string function, I will be adding it to this library. 
