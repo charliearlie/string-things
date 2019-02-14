@@ -14,7 +14,7 @@ npm install string-things
 or
 
 ```
-yard add string-things
+yarn add string-things
 ```
 
 ## Functions provided
