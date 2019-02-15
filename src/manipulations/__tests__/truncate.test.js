@@ -1,19 +1,13 @@
 import truncate from "../truncate";
 
 describe("truncate", () => {
-  it("should add an ellipsis at 20 characters by default", () => {
+  it("should finish at the end of the word after 20 characters", () => {
     const str = "A string that is quite long so it can be truncated";
-    expect(truncate(str)).toBe("A string that is qui...");
-  });
-
-  it("should finish the word then add the ellipsis if endAfterWord is true", () => {
-    const options = { endAfterWord: true };
-    const str = "A string that is quite long so it can be truncated";
-    expect(truncate(str, options)).toBe("A string that is quite...");
+    expect(truncate(str)).toBe("A string that is quite...");
   });
 
   it("should trim the end if the last character is a space", () => {
-    const options = { length: 17, suffix: ",,," };
+    const options = { length: 14, suffix: ",,," };
     const str = "A string that is quite long so it can be truncated";
     expect(truncate(str, options)).toBe("A string that is,,,");
   });
