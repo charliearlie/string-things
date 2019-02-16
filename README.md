@@ -62,6 +62,15 @@ unescape("&lt;div&rt;");
 // => "<div>"
 ```
 
+### titleCase
+
+```js
+import { titleCase } from "string-things";
+
+titleCase("aPropertyNameWhichNeedsToBeDisplayedAsATitle");
+// => "A Property Name Which Needs To Be Displayed As A Title"
+```
+
 ### truncate
 
 `truncate(stringValue, options)`
