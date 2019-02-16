@@ -62,6 +62,22 @@ unescape("&lt;div&rt;");
 // => "<div>"
 ```
 
+### truncate
+
+`truncate(stringValue, options)`
+
+```js
+import { truncate } from "string-things";
+
+truncate("Once upon a time there was a string that was truncated");
+// => "Once upon a time there..."
+
+truncate("Once upon a time there was a string that was truncated", {
+  length: 15
+});
+// => "Once upon a time..."
+```
+
 ## Actively maintained
 
 Every time I need a string function, I will be adding it to this library.
